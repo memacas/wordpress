@@ -1,0 +1,20 @@
+2019-05-09T22:33:06+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_billing_address() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\woo-customers-order-history\admin_dashboard_style.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-customers-order-history\woocommerce-customers-order-history.php(254): include()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): WC_wcchpo->wcchpo_Order_history_page('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(253): do_action('customers-order...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woo-customers-order-history\admin_dashboard_style.php on line 23
+
+2019-05-09T22:33:18+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_billing_address() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\woo-customers-order-history\admin_dashboard_style.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-customers-order-history\woocommerce-customers-order-history.php(254): include()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): WC_wcchpo->wcchpo_Order_history_page('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin.php(253): do_action('customers-order...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woo-customers-order-history\admin_dashboard_style.php on line 23
+
